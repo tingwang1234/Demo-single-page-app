@@ -1,0 +1,37 @@
+.test-page {
+    padding: 20px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.policy-tier {
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.select-cover {
+    background: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.info-icon {
+    margin-left: 5px;
+    cursor: pointer;
+}
