@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./page/Home.tsx";
 import Test from "./page/Test.tsx";
 import Navbar from "./components/Navbar.tsx";
+import InaccessiblePage from "./page/InaccessiblePage.tsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/test" element={<Test />}/>
+              <Route path="/inaccessible" element={<InaccessiblePage />}/>
           </Routes>
       </Router>
   )

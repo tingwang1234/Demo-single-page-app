@@ -9,6 +9,7 @@ const Navbar: React.FC = () => {
             <ul className="nav-links">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/test">Test Page</Link></li>
+                <li><Link to="/inaccessible" >Inaccessible Page</Link></li>
             </ul>
         </nav>
     );
