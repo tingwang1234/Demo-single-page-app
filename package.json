@@ -17,7 +17,9 @@
     "react-router-dom": "^7.1.5"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
     "@eslint/js": "^9.19.0",
+    "@playwright/test": "^1.50.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
