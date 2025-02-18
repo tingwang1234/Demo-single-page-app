@@ -10,8 +10,6 @@ test.describe('InaccessiblePage Accessibility Tests', () => {
         const axe = new AxeBuilder({ page });
         const results = await axe.analyze();
 
-        console.log(JSON.stringify(results, null, 2));
-
         expect(results.violations.length).toBeGreaterThan(0);
 
         if (results.violations.length > 0) {
